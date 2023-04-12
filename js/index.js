@@ -5,7 +5,7 @@
 //const foo = () => {
     //console.log(this);
 //};візьме контекст глобально з window. Контекст-це спеціальна зміна,яка створена в середині функції.
-//стрілочна функція в більшості завжди window 
+//стрілочна функція в більшості завжди window
 //foo();
 
 //const user = {
@@ -20,15 +20,16 @@ foo.call({}5,3)
 Викликаємо функ.метод кол і першим аргументом передали контекст - {}, тобто пустий об'єкт.
 Далі через кому передаємо аргументи які нам потрібні. - 5,3.
 call і apply,bind - ці методи використовуються не часто, їх замінили стрілочні функції
-bind - коли функція колбек передається в іншу функ.this
+bind - коли функція колбек передається в іншу функ.this//
  */
-function showThis() {
-    console.log("This in showThis")
-}
-showThis();//звичайна функція в момент запуску.Window//use strict=>undefined
+//function showThis() {
+    //console.log("This in showThis")
+//}
+//showThis();//звичайна функція в момент запуску.Window//use strict=>undefined
 
-const user = {
-  username: "mango",
-};
-user.showContext = showThis;
-user.showContext();//запускаєьтся в контексті юзера
+//const user = {
+  //username: "mango",
+//};
+//user.showContext = showThis;
+//user.showContext();//запускаєьтся в контексті юзера
+

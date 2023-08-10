@@ -12,7 +12,7 @@
 //const userInput = Number(prompt('Введіть число'));//
 //вказуємо з інверсією '!'
 //console.log(typeof userInput);
-//if (!userInput) {//
+//if (!userInput) { //0=>!+false(не фолс)=>true
   //console.log("Це нуль");
 //} else if (userInput > 0) {//
    // console.log("Це позитивне число");

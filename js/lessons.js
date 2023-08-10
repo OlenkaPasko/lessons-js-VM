@@ -22,8 +22,8 @@
 //}
 
 //Вкладені розгалуження
-const a = 120;
-const b = 180;
+//const a = 120;
+//const b = 180;
 
 //if (a > 100 && b > 100) {
   //if (a > b) {
@@ -36,9 +36,9 @@ const b = 180;
 //}
 //або тернарним скорочуємо запис
 
-if (a > 100 && b > 100) {
-  console.log(a > b ? a : b);
-} else {
-  console.log(b + 512);
-}
+//if (a > 100 && b > 100) {
+  //console.log(a > b ? a : b);
+//} else {
+  //console.log(b + 512);
+//}
 

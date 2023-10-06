@@ -14,5 +14,9 @@ console.log(title);
 
 
 //ClassList
-title.classList.add('title-color')
+title.classList.add('title-color');//додати
+title.classList.remove('title-color');//видалити
+title.classList.toggle('title-color');
+title.classList.toggle('title-color');//якщо є клас,він додасть,якщо немає прибере
+title.style.fontSize= '50px'//інлайновий спосіби,але це не правило,а як виняток,щоб додати один стиль.
 
